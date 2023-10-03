@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form id="contact-form">
+        <h3 class="inp">Ввeдите имя</h3>
+        <input class="inp-text" type="text" id="name" placeholder="Name" />
+        <h3 class="inp">Ввeдите почту</h3>
+        <input class="inp-text" type="email" id="email" placeholder="Email" />
+        <h3 class="inp">Вводите номер телефона</h3>
+        <input class="inp-text" type="number" id="phone" placeholder="+996" />
+        <h3 class="inp">Загрузите картину</h3>
+        <input
+          class="inp-text"
+          type="url"
+          id="imageUrl"
+          placeholder="Image URL"
+        />
+        <button class="btn-contact" type="button" onclick="addContact()">Add Contact</button>
+      </form>
+    </div>
+    <div id="contact-list"></div>
+    <script src="./ls/main.js"></script>
+  </body>
+</html>

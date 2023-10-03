@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./1625738512_13-kartinkin-com-p-vorld-of-tank-blits-oboi-krasivie-14.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgb(72, 70, 83);
+    border-radius: 300px;
+}
+
+#contact-form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.inp {
+    color: rgb(190, 187, 191);
+}
+.inp-text {
+    width: 30%;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 30px;
+    border: none;
+    color: rgb(35, 4, 42);
+    background-color: rgb(244, 244, 244);
+}
+
+.btn-contact{
+    margin-top: 5px;
+    width: 10%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: slateblue;
+    border: none;
+}
+
+.cart {
+    background-color: rgb(206, 201, 201);
+    width: 80%;
+    margin-left: 150px;
+    border: none;
+    margin: auto;
+
+}
+
+.cartochka {
+    width: 60%;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(211, 225, 238);
+    border-radius: 50px;
+}
+
+.bttn {
+    margin-top: 15px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-click {
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-color: yellowgreen;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.btn-click-delete {
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-left: 15px;
+}
